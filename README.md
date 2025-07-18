@@ -32,17 +32,20 @@ A comprehensive, enterprise-grade implementation of the Signal Protocol in Rust,
 | Document | Audience | Description |
 |----------|----------|-------------|
 | [**📖 Complete Documentation**](docs/README.md) | All Users | Documentation hub and navigation |
-| [**🔧 API Reference**](docs/api_reference.md) | Developers | Complete API documentation |
+| [**🔧 Dart API Reference**](docs/DART_API_REFERENCE.md) | Flutter Developers | Complete Dart binding API documentation |
 | [**👨‍💻 Developer Guide**](docs/developer_guide.md) | Developers | Integration guide and examples |
-| [**🚀 Advanced Guide**](docs/developer_guide_part2.md) | DevOps/Enterprise | Deployment and monitoring |
+| [**📱 Flutter Example**](flutter_signal_chat/) | Flutter Developers | Complete group chat application |
+| [**🎯 Dart Binding Guide**](docs/DART_BINDING_GUIDE.md) | Flutter Developers | Dart FFI integration guide |
+| [**� Advanced Guide**](docs/developer_guide_part2.md) | DevOps/Enterprise | Deployment and monitoring |
 | [**🎓 Educational Guide**](docs/signal_protocol_for_kids.md) | Students/General | Learn Signal Protocol basics |
 
 ### 🏃‍♂️ Getting Started
 
-1. **For Developers**: Start with the [Developer Guide](docs/developer_guide.md)
-2. **For Students**: Begin with [Signal Protocol for Kids](docs/signal_protocol_for_kids.md)
-3. **For Enterprise**: Review [Advanced Deployment Guide](docs/developer_guide_part2.md)
-4. **For API Reference**: Check the [Complete API Documentation](docs/api_reference.md)
+1. **For Flutter Developers**: Start with the [Flutter Example](flutter_signal_chat/) and [Dart Binding Guide](docs/DART_BINDING_GUIDE.md)
+2. **For Rust Developers**: Begin with the [Developer Guide](docs/developer_guide.md)
+3. **For Students**: Learn with [Signal Protocol for Kids](docs/signal_protocol_for_kids.md)
+4. **For Enterprise**: Review [Advanced Deployment Guide](docs/developer_guide_part2.md)
+5. **For API Reference**: Check the [Dart API Documentation](docs/DART_API_REFERENCE.md)
 
 ## ⚡ Quick Example
 
@@ -162,7 +165,7 @@ dependencies:
   ffi: ^2.0.0
 ```
 
-Then follow the [Dart/Flutter integration guide](docs/developer_guide.md#dartflutter-integration).
+Then follow the [Dart Binding Guide](docs/DART_BINDING_GUIDE.md) or explore the [complete Flutter example](flutter_signal_chat/).
 
 ## 🧪 Testing
 

@@ -21,6 +21,8 @@ mod deployment;
 mod ai_ml;
 mod quantum;
 mod next_gen;
+mod group_ffi;
+mod session_ffi;
 
 // Legacy modules (to be replaced)
 mod x3dh;
@@ -65,6 +67,10 @@ pub use group::{generate_sender_key, encrypt_group_message, decrypt_group_messag
 mod api;
 #[cfg(feature = "ffi")]
 pub use api::*;
+#[cfg(feature = "ffi")]
+pub use group_ffi::*;
+#[cfg(feature = "ffi")]
+pub use session_ffi::*;
 
 #[cfg(test)]
 mod tests {

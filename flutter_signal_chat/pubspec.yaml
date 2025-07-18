@@ -1,0 +1,61 @@
+name: flutter_signal_chat
+description: A Flutter group chat application using Signal Protocol for end-to-end encryption.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # UI and Material Design
+  cupertino_icons: ^1.0.6
+  material_color_utilities: ^0.5.0
+  
+  # FFI for native library integration
+  ffi: ^2.1.0
+  
+  # Database
+  sqflite: ^2.3.0
+  path: ^1.8.3
+  
+  # State Management
+  provider: ^6.1.1
+  
+  # Utilities
+  uuid: ^4.1.0
+  crypto: ^3.0.3
+  convert: ^3.1.1
+  
+  # Date and Time
+  intl: ^0.18.1
+  
+  # File system
+  path_provider: ^2.1.1
+  
+  # JSON
+  json_annotation: ^4.8.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  build_runner: ^2.4.7
+  json_serializable: ^6.7.1
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/icons/
+  
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: fonts/Roboto-Regular.ttf
+        - asset: fonts/Roboto-Bold.ttf
+          weight: 700

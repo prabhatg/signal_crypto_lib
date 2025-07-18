@@ -27,6 +27,7 @@ bincode = "1.3"
 async-trait = "0.1"
 uuid = { version = "1.6", features = ["v4", "serde"] }
 dirs = "5.0"
+chrono = { version = "0.4", features = ["serde"] }
 
 # Security dependencies
 hmac = "0.12"

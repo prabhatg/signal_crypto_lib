@@ -198,3 +198,4 @@ Session.vim
 
 # Built Visual Studio Code Extensions
 *.vsix
+flutter_signal_chat/pubspec.lock

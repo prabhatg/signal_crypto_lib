@@ -599,10 +599,16 @@ mod tests {
     fn test_session_health_check() {
         let mut manager = ErrorRecoveryManager::new(RecoveryConfig::default());
         
-        // Add multiple errors for a session
+        // Add multiple errors for a session to make it unhealthy
+        // We need to simulate failed recovery attempts to increase consecutive_failures
         for _ in 0..6 {
             let error = ProtocolError::DoubleRatchet(DoubleRatchetError::DecryptionFailed);
             manager.get_recovery_strategy("unhealthy_session", &error);
+            
+            // Simulate a failed recovery to increment consecutive_failures
+            if let Some(history) = manager.error_history.get_mut("unhealthy_session") {
+                history.consecutive_failures += 1;
+            }
         }
         
         assert!(manager.is_session_unhealthy("unhealthy_session"));

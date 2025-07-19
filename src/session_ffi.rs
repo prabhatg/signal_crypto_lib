@@ -1,3 +1,17 @@
+/*
+ * Signal Crypto Library 🔐
+ * A comprehensive, enterprise-grade implementation of the Signal Protocol in Rust
+ *
+ * Copyright (c) 2025 Prabhat Gupta
+ *
+ * Licensed under the MIT License
+ * See LICENSE file in the project root for full license information.
+ *
+ * FFI bindings for session management functionality with persistent storage support.
+ * Provides C-compatible interface for session lifecycle management, encrypted storage,
+ * and cross-platform session persistence for Dart/Flutter integration.
+ */
+
 // signal_crypto_lib/src/session_ffi.rs
 // FFI bindings for session management functionality
 

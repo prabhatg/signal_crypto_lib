@@ -1,3 +1,17 @@
+/*
+ * Signal Crypto Library 🔐
+ * A comprehensive, enterprise-grade implementation of the Signal Protocol in Rust
+ *
+ * Copyright (c) 2025 Prabhat Gupta
+ *
+ * Licensed under the MIT License
+ * See LICENSE file in the project root for full license information.
+ *
+ * This library provides secure end-to-end encryption using the Signal Protocol,
+ * featuring X3DH key agreement, Double Ratchet messaging, and advanced security features
+ * including post-quantum cryptography support and enterprise integrations.
+ */
+
 // signal_crypto_lib/src/lib.rs
 
 mod identity;

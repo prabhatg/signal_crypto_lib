@@ -1,3 +1,17 @@
+/*
+ * Signal Crypto Library 🔐
+ * A comprehensive, enterprise-grade implementation of the Signal Protocol in Rust
+ *
+ * Copyright (c) 2025 Prabhat Gupta
+ *
+ * Licensed under the MIT License
+ * See LICENSE file in the project root for full license information.
+ *
+ * Post-quantum cryptography preparation with hybrid classical/PQ schemes.
+ * Implements CRYSTALS-Kyber, Dilithium, SPHINCS+, and Classic McEliece algorithms
+ * for quantum-resistant key agreement, signatures, and migration strategies.
+ */
+
 // signal_crypto_lib/src/post_quantum.rs
 // Post-quantum cryptography preparation and hybrid schemes
 

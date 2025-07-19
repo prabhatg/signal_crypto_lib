@@ -1,3 +1,14 @@
+# Signal Crypto Library 🔐
+# A comprehensive, enterprise-grade implementation of the Signal Protocol in Rust
+#
+# Copyright (c) 2025 Prabhat Gupta
+#
+# Licensed under the MIT License
+# See LICENSE file in the project root for full license information.
+#
+# Flutter pubspec configuration - package manifest for Flutter Signal Chat application
+# demonstrating end-to-end encrypted group messaging with Signal Protocol integration
+
 name: flutter_signal_chat
 description: A Flutter group chat application using Signal Protocol for end-to-end encryption.
 publish_to: 'none'

@@ -1,3 +1,16 @@
+<!--
+Signal Crypto Library 🔐
+A comprehensive, enterprise-grade implementation of the Signal Protocol in Rust
+
+Copyright (c) 2025 Prabhat Gupta
+
+Licensed under the MIT License
+See LICENSE file in the project root for full license information.
+
+Main project documentation and overview - comprehensive Signal Protocol implementation
+with enterprise features, post-quantum cryptography, and Flutter integration
+-->
+
 # Signal Crypto Library 🔐
 
 A comprehensive, enterprise-grade implementation of the Signal Protocol in Rust, featuring cutting-edge security technologies and future-proof cryptographic capabilities.

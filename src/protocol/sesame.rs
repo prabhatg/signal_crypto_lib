@@ -1,3 +1,17 @@
+/*
+ * Signal Crypto Library 🔐
+ * A comprehensive, enterprise-grade implementation of the Signal Protocol in Rust
+ *
+ * Copyright (c) 2025 Prabhat Gupta
+ *
+ * Licensed under the MIT License
+ * See LICENSE file in the project root for full license information.
+ *
+ * Sesame group messaging protocol implementation.
+ * Provides secure group communication with sender key distribution,
+ * message authentication, and support for out-of-order message delivery.
+ */
+
 // signal_crypto_lib/src/protocol/sesame.rs
 
 use crate::types::*;

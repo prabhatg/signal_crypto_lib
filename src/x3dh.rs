@@ -1,3 +1,17 @@
+/*
+ * Signal Crypto Library 🔐
+ * A comprehensive, enterprise-grade implementation of the Signal Protocol in Rust
+ *
+ * Copyright (c) 2025 Prabhat Gupta
+ *
+ * Licensed under the MIT License
+ * See LICENSE file in the project root for full license information.
+ *
+ * Legacy X3DH compatibility wrapper for backward compatibility.
+ * Provides simplified session establishment interface - use protocol::x3dh
+ * for full-featured implementation with proper key agreement and validation.
+ */
+
 // signal_crypto_lib/src/x3dh.rs
 // Legacy compatibility wrapper - use protocol::x3dh instead
 

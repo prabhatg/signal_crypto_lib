@@ -1,3 +1,17 @@
+/*
+ * Signal Crypto Library 🔐
+ * A comprehensive, enterprise-grade implementation of the Signal Protocol in Rust
+ *
+ * Copyright (c) 2025 Prabhat Gupta
+ *
+ * Licensed under the MIT License
+ * See LICENSE file in the project root for full license information.
+ *
+ * Skipped message keys management for out-of-order message handling.
+ * Implements secure key storage with TTL expiration, memory limits,
+ * and FFI bindings for robust Double Ratchet message decryption.
+ */
+
 // signal_crypto_lib/src/skipped_keys.rs
 
 use std::collections::{HashMap, VecDeque};

@@ -1,3 +1,16 @@
+<!--
+Signal Crypto Library 🔐
+A comprehensive, enterprise-grade implementation of the Signal Protocol in Rust
+
+Copyright (c) 2025 Prabhat Gupta
+
+Licensed under the MIT License
+See LICENSE file in the project root for full license information.
+
+Signal Protocol usage examples - basic Dart FFI examples and comprehensive Flutter
+application demonstrating cryptographic operations and secure messaging patterns
+-->
+
 # Signal Protocol Examples
 
 This directory contains basic examples for using the Signal Protocol library.

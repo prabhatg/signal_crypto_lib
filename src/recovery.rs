@@ -1,3 +1,17 @@
+/*
+ * Signal Crypto Library 🔐
+ * A comprehensive, enterprise-grade implementation of the Signal Protocol in Rust
+ *
+ * Copyright (c) 2025 Prabhat Gupta
+ *
+ * Licensed under the MIT License
+ * See LICENSE file in the project root for full license information.
+ *
+ * Advanced error recovery mechanisms with circuit breakers and exponential backoff.
+ * Implements comprehensive error handling, session recovery strategies,
+ * and resilient protocol operation for production-grade messaging systems.
+ */
+
 // signal_crypto_lib/src/recovery.rs
 // Advanced error recovery mechanisms for robust protocol operation
 

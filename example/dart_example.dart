@@ -1,3 +1,17 @@
+/*
+ * Signal Crypto Library 🔐
+ * A comprehensive, enterprise-grade implementation of the Signal Protocol in Rust
+ *
+ * Copyright (c) 2025 Prabhat Gupta
+ *
+ * Licensed under the MIT License
+ * See LICENSE file in the project root for full license information.
+ *
+ * Dart FFI example demonstrating Signal Protocol library integration.
+ * Shows cross-platform library loading, memory management, and basic
+ * cryptographic operations with comprehensive error handling and mock fallbacks.
+ */
+
 import 'dart:ffi';
 import 'dart:convert';
 import 'dart:io';

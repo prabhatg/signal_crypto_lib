@@ -1,3 +1,17 @@
+/*
+ * Signal Crypto Library 🔐
+ * A comprehensive, enterprise-grade implementation of the Signal Protocol in Rust
+ *
+ * Copyright (c) 2025 Prabhat Gupta
+ *
+ * Licensed under the MIT License
+ * See LICENSE file in the project root for full license information.
+ *
+ * FFI bindings for group messaging functionality with Sesame protocol support.
+ * Provides C-compatible interface for group session management, member operations,
+ * and secure group message encryption/decryption for Dart/Flutter integration.
+ */
+
 // signal_crypto_lib/src/group_ffi.rs
 // FFI bindings for group messaging functionality
 

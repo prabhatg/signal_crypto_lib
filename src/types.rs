@@ -1,3 +1,16 @@
+/*
+ * Signal Crypto Library 🔐
+ * A comprehensive, enterprise-grade implementation of the Signal Protocol in Rust
+ *
+ * Copyright (c) 2025 Prabhat Gupta
+ *
+ * Licensed under the MIT License
+ * See LICENSE file in the project root for full license information.
+ *
+ * Core type definitions for the Signal Protocol implementation including
+ * identity keys, prekeys, session states, and cryptographic message structures.
+ */
+
 // signal_crypto_lib/src/types.rs
 
 use serde::{Deserialize, Serialize};

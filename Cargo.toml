@@ -1,3 +1,14 @@
+# Signal Crypto Library 🔐
+# A comprehensive, enterprise-grade implementation of the Signal Protocol in Rust
+#
+# Copyright (c) 2025 Prabhat Gupta
+#
+# Licensed under the MIT License
+# See LICENSE file in the project root for full license information.
+#
+# Cargo configuration - Rust package manifest defining dependencies, features,
+# and build configuration for Signal Protocol cryptographic library
+
 [package]
 name = "signal_crypto_lib"
 version = "0.1.0"
@@ -27,7 +38,6 @@ bincode = "1.3"
 async-trait = "0.1"
 uuid = { version = "1.6", features = ["v4", "serde"] }
 dirs = "5.0"
-chrono = { version = "0.4", features = ["serde"] }
 
 # Security dependencies
 hmac = "0.12"

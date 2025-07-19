@@ -1,3 +1,16 @@
+<!--
+Signal Crypto Library 🔐
+A comprehensive, enterprise-grade implementation of the Signal Protocol in Rust
+
+Copyright (c) 2025 Prabhat Gupta
+
+Licensed under the MIT License
+See LICENSE file in the project root for full license information.
+
+Complete Flutter Signal Protocol implementation - comprehensive group chat application
+demonstrating X3DH, Double Ratchet, group messaging, and secure communication patterns
+-->
+
 # Flutter Signal Chat - Complete Signal Protocol Implementation
 
 A comprehensive Flutter application demonstrating end-to-end encrypted group chat using the Signal Protocol. This implementation provides a complete example of integrating Signal Protocol cryptography with Flutter for secure messaging applications.

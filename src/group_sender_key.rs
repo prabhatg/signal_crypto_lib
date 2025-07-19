@@ -1,3 +1,17 @@
+/*
+ * Signal Crypto Library 🔐
+ * A comprehensive, enterprise-grade implementation of the Signal Protocol in Rust
+ *
+ * Copyright (c) 2025 Prabhat Gupta
+ *
+ * Licensed under the MIT License
+ * See LICENSE file in the project root for full license information.
+ *
+ * Group sender key management for efficient group messaging with forward secrecy.
+ * Implements sender key chains, message encryption/decryption, group key rotation,
+ * and mock prekey server functionality for scalable group communications.
+ */
+
 // signal_crypto_lib/src/group_sender_key.rs
 
 use serde::{Serialize, Deserialize};

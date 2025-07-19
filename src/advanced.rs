@@ -1,3 +1,17 @@
+/*
+ * Signal Crypto Library 🔐
+ * A comprehensive, enterprise-grade implementation of the Signal Protocol in Rust
+ *
+ * Copyright (c) 2025 Prabhat Gupta
+ *
+ * Licensed under the MIT License
+ * See LICENSE file in the project root for full license information.
+ *
+ * Advanced protocol features with message batching, compression, and group management.
+ * Implements protocol versioning, delivery receipts, role-based permissions,
+ * and comprehensive metrics for enterprise-grade messaging systems.
+ */
+
 // signal_crypto_lib/src/advanced.rs
 // Advanced protocol features and optimizations
 

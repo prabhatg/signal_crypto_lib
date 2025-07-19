@@ -1,3 +1,16 @@
+/*
+ * Signal Crypto Library 🔐
+ * A comprehensive, enterprise-grade implementation of the Signal Protocol in Rust
+ *
+ * Copyright (c) 2025 Prabhat Gupta
+ *
+ * Licensed under the MIT License
+ * See LICENSE file in the project root for full license information.
+ *
+ * Integration tests module - comprehensive testing of complete Signal Protocol flows
+ * including X3DH key agreement, Double Ratchet messaging, and Sesame group protocols
+ */
+
 //! Integration tests for the complete Signal Protocol implementation
 //! 
 //! This module tests the full protocol flow:

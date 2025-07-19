@@ -1,3 +1,17 @@
+/*
+ * Signal Crypto Library 🔐
+ * A comprehensive, enterprise-grade implementation of the Signal Protocol in Rust
+ *
+ * Copyright (c) 2025 Prabhat Gupta
+ *
+ * Licensed under the MIT License
+ * See LICENSE file in the project root for full license information.
+ *
+ * Double Ratchet protocol implementation for secure messaging.
+ * Provides forward secrecy and post-compromise security through
+ * continuous key evolution and Diffie-Hellman ratcheting.
+ */
+
 // signal_crypto_lib/src/protocol/double_ratchet.rs
 
 use crate::types::*;

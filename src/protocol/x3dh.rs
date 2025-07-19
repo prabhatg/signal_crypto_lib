@@ -1,3 +1,17 @@
+/*
+ * Signal Crypto Library 🔐
+ * A comprehensive, enterprise-grade implementation of the Signal Protocol in Rust
+ *
+ * Copyright (c) 2025 Prabhat Gupta
+ *
+ * Licensed under the MIT License
+ * See LICENSE file in the project root for full license information.
+ *
+ * X3DH (Extended Triple Diffie-Hellman) key agreement protocol implementation.
+ * Provides secure key establishment between two parties using identity keys,
+ * signed prekeys, and optional one-time prekeys for forward secrecy.
+ */
+
 // signal_crypto_lib/src/protocol/x3dh.rs
 
 use crate::types::*;

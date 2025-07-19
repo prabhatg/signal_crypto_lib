@@ -1,3 +1,14 @@
+# Signal Crypto Library 🔐
+# A comprehensive, enterprise-grade implementation of the Signal Protocol in Rust
+#
+# Copyright (c) 2025 Prabhat Gupta
+#
+# Licensed under the MIT License
+# See LICENSE file in the project root for full license information.
+#
+# Git ignore configuration - comprehensive exclusion patterns for build artifacts,
+# temporary files, security-sensitive data, and development environment files
+
 # Rust build artifacts
 /target/
 **/*.rs.bk

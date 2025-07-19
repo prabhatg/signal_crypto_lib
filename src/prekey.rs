@@ -1,3 +1,16 @@
+/*
+ * Signal Crypto Library 🔐
+ * A comprehensive, enterprise-grade implementation of the Signal Protocol in Rust
+ *
+ * Copyright (c) 2025 Prabhat Gupta
+ *
+ * Licensed under the MIT License
+ * See LICENSE file in the project root for full license information.
+ *
+ * Prekey generation and management for the Signal Protocol.
+ * Handles signed prekeys and one-time prekeys for X3DH key agreement.
+ */
+
 // signal_crypto_lib/src/prekey.rs
 
 use crate::types::{IdentityKeyPair, OneTimePreKey, SignedPreKey};

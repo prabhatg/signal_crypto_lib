@@ -1,3 +1,17 @@
+/*
+ * Signal Crypto Library 🔐
+ * A comprehensive, enterprise-grade implementation of the Signal Protocol in Rust
+ *
+ * Copyright (c) 2025 Prabhat Gupta
+ *
+ * Licensed under the MIT License
+ * See LICENSE file in the project root for full license information.
+ *
+ * Performance optimizations with LRU caching, object pooling, and memory management.
+ * Implements session caching, key derivation optimization, memory pools,
+ * and performance monitoring for high-throughput cryptographic operations.
+ */
+
 // signal_crypto_lib/src/performance.rs
 // Performance optimizations including caching and object pooling
 

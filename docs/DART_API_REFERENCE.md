@@ -1,3 +1,16 @@
+<!--
+Signal Crypto Library 🔐
+A comprehensive, enterprise-grade implementation of the Signal Protocol in Rust
+
+Copyright (c) 2025 Prabhat Gupta
+
+Licensed under the MIT License
+See LICENSE file in the project root for full license information.
+
+Complete Dart binding API reference - comprehensive documentation for FFI functions,
+data models, service interfaces, and integration patterns for Flutter applications
+-->
+
 # Signal Protocol Dart Binding API Reference
 
 Complete API reference for the Signal Protocol Dart bindings, including all FFI functions, data models, and service interfaces.

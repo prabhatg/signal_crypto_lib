@@ -87,6 +87,21 @@ graph TB
     K --> T
     O --> U
     D --> V
+    
+    style D fill:#bbdefb,stroke:#1976d2,stroke-width:2px,color:#000
+    style E fill:#c8e6c9,stroke:#43a047,stroke-width:2px,color:#000
+    style F fill:#ffe0b2,stroke:#fb8c00,stroke-width:2px,color:#000
+    style G fill:#ffcdd2,stroke:#e53935,stroke-width:2px,color:#000
+    style H fill:#c8e6c9,stroke:#43a047,stroke-width:2px,color:#000
+    style I fill:#c8e6c9,stroke:#43a047,stroke-width:2px,color:#000
+    style J fill:#c8e6c9,stroke:#43a047,stroke-width:2px,color:#000
+    style M fill:#e1bee7,stroke:#8e24aa,stroke-width:2px,color:#000
+    style N fill:#e1bee7,stroke:#8e24aa,stroke-width:2px,color:#000
+    style O fill:#e1bee7,stroke:#8e24aa,stroke-width:2px,color:#000
+    style P fill:#fff59d,stroke:#f57f17,stroke-width:2px,color:#000
+    style Q fill:#fff59d,stroke:#f57f17,stroke-width:2px,color:#000
+    style R fill:#fff59d,stroke:#f57f17,stroke-width:2px,color:#000
+    style S fill:#fff59d,stroke:#f57f17,stroke-width:2px,color:#000
 ```
 
 ### Module Structure
@@ -296,6 +311,16 @@ sequenceDiagram
     Alice->>Bob: Initial message + encrypted content
     Note over Bob: Perform X3DH calculation
     Note over Alice,Bob: Shared secret established
+    
+    rect rgb(187, 222, 251)
+        Note over Alice: Alice operations
+    end
+    rect rgb(200, 230, 201)
+        Note over Bob: Bob operations
+    end
+    rect rgb(255, 224, 178)
+        Note over Server: Server operations
+    end
 ```
 
 #### API Usage
@@ -348,6 +373,17 @@ graph LR
     
     A3 -.->|Encrypted Message 1| B3
     A4 -.->|Encrypted Message 2| B4
+    
+    style A1 fill:#bbdefb,stroke:#1976d2,stroke-width:2px,color:#000
+    style A2 fill:#c8e6c9,stroke:#43a047,stroke-width:2px,color:#000
+    style A3 fill:#ffe0b2,stroke:#fb8c00,stroke-width:2px,color:#000
+    style A4 fill:#ffe0b2,stroke:#fb8c00,stroke-width:2px,color:#000
+    style A5 fill:#ffcdd2,stroke:#e53935,stroke-width:2px,color:#000
+    style B1 fill:#bbdefb,stroke:#1976d2,stroke-width:2px,color:#000
+    style B2 fill:#ffcdd2,stroke:#e53935,stroke-width:2px,color:#000
+    style B3 fill:#ffe0b2,stroke:#fb8c00,stroke-width:2px,color:#000
+    style B4 fill:#ffe0b2,stroke:#fb8c00,stroke-width:2px,color:#000
+    style B5 fill:#c8e6c9,stroke:#43a047,stroke-width:2px,color:#000
 ```
 
 #### API Usage

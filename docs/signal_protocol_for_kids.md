@@ -1,4 +1,4 @@
-# The Signal Protocol Explained for Middle Schoolers 🔐
+# The Signal Protocol Explained 🔐
 
 ## Table of Contents
 
@@ -33,10 +33,10 @@ graph LR
     D --> E[Friend's Decoder]
     E --> F[Original Message]
     
-    style A fill:#e1f5fe
-    style F fill:#e8f5e8
-    style B fill:#fff3e0
-    style E fill:#fff3e0
+    style A fill:#bbdefb,stroke:#1976d2,stroke-width:2px,color:#000
+    style F fill:#c8e6c9,stroke:#43a047,stroke-width:2px,color:#000
+    style B fill:#ffe0b2,stroke:#fb8c00,stroke-width:2px,color:#000
+    style E fill:#ffe0b2,stroke:#fb8c00,stroke-width:2px,color:#000
 ```
 
 ## Why Do We Need Secret Messages? 🕵️
@@ -63,10 +63,10 @@ graph TB
         B --> G[Bullies 😠]
     end
     
-    style D fill:#ffebee
-    style E fill:#ffebee
-    style F fill:#ffebee
-    style G fill:#ffebee
+    style D fill:#ffcdd2,stroke:#e53935,stroke-width:2px,color:#000
+    style E fill:#ffcdd2,stroke:#e53935,stroke-width:2px,color:#000
+    style F fill:#ffcdd2,stroke:#e53935,stroke-width:2px,color:#000
+    style G fill:#ffcdd2,stroke:#e53935,stroke-width:2px,color:#000
 ```
 
 ### The Solution With Encryption
@@ -83,10 +83,10 @@ graph TB
         C --> G[Others: 'Xjw2#mK9$pLq@' 🤷‍♀️❓]
     end
     
-    style B fill:#e8f5e8
-    style D fill:#e8f5e8
-    style F fill:#ffebee
-    style G fill:#ffebee
+    style B fill:#c8e6c9,stroke:#43a047,stroke-width:2px,color:#000
+    style D fill:#c8e6c9,stroke:#43a047,stroke-width:2px,color:#000
+    style F fill:#ffcdd2,stroke:#e53935,stroke-width:2px,color:#000
+    style G fill:#ffcdd2,stroke:#e53935,stroke-width:2px,color:#000
 ```
 
 ## The Signal Protocol Story 📱
@@ -133,10 +133,10 @@ graph TD
         M --> N[Even Safer! 🔒]
     end
     
-    style D fill:#e8f5e8
-    style F fill:#fff3e0
-    style J fill:#fff3e0
-    style N fill:#e8f5e8
+    style D fill:#c8e6c9,stroke:#43a047,stroke-width:2px,color:#000
+    style F fill:#ffe0b2,stroke:#fb8c00,stroke-width:2px,color:#000
+    style J fill:#ffe0b2,stroke:#fb8c00,stroke-width:2px,color:#000
+    style N fill:#c8e6c9,stroke:#43a047,stroke-width:2px,color:#000
 ```
 
 ## The Magic of Key Exchange 🗝️
@@ -163,7 +163,7 @@ graph TB
         H --> I
     end
     
-    style I fill:#e8f5e8
+    style I fill:#c8e6c9,stroke:#43a047,stroke-width:2px,color:#000
 ```
 
 **The Amazing Part:** Even if someone sees the blue and red paint being sent, they can't figure out what purple looks like without knowing the secret numbers!
@@ -181,7 +181,7 @@ graph LR
         D --> E[Super Strong Shared Secret! 💪]
     end
     
-    style E fill:#e8f5e8
+    style E fill:#c8e6c9,stroke:#43a047,stroke-width:2px,color:#000
 ```
 
 ## The Double Ratchet - Like a Super Lock 🔐
@@ -213,9 +213,9 @@ graph TD
         L --> M[Keep Changing Forever! ♾️]
     end
     
-    style E fill:#fff3e0
-    style I fill:#fff3e0
-    style M fill:#e8f5e8
+    style E fill:#ffe0b2,stroke:#fb8c00,stroke-width:2px,color:#000
+    style I fill:#ffe0b2,stroke:#fb8c00,stroke-width:2px,color:#000
+    style M fill:#c8e6c9,stroke:#43a047,stroke-width:2px,color:#000
 ```
 
 ### Why This is Amazing
@@ -248,12 +248,12 @@ graph LR
     C -.-> H
     D -.-> I
     
-    style A fill:#e1f5fe
-    style B fill:#e1f5fe
-    style C fill:#e1f5fe
-    style F fill:#fff3e0
-    style G fill:#fff3e0
-    style H fill:#fff3e0
+    style A fill:#bbdefb,stroke:#1976d2,stroke-width:2px,color:#000
+    style B fill:#bbdefb,stroke:#1976d2,stroke-width:2px,color:#000
+    style C fill:#bbdefb,stroke:#1976d2,stroke-width:2px,color:#000
+    style F fill:#ffe0b2,stroke:#fb8c00,stroke-width:2px,color:#000
+    style G fill:#ffe0b2,stroke:#fb8c00,stroke-width:2px,color:#000
+    style H fill:#ffe0b2,stroke:#fb8c00,stroke-width:2px,color:#000
 ```
 
 ## Group Chats - Sharing Secrets with Friends 👥
@@ -276,7 +276,7 @@ graph TB
         S --> D
     end
     
-    style S fill:#ffebee
+    style S fill:#ffcdd2,stroke:#e53935,stroke-width:2px,color:#000
 ```
 
 **Problem:** The server can read everyone's messages! 😱
@@ -297,8 +297,8 @@ graph TB
         I --> J[Everyone reads: 'Pizza party!']
     end
     
-    style A fill:#e8f5e8
-    style J fill:#e8f5e8
+    style A fill:#c8e6c9,stroke:#43a047,stroke-width:2px,color:#000
+    style J fill:#c8e6c9,stroke:#43a047,stroke-width:2px,color:#000
 ```
 
 ### Group Key Rotation
@@ -342,8 +342,8 @@ graph LR
         G --> H[All possible answers at once! 🤯]
     end
     
-    style G fill:#e1f5fe
-    style H fill:#e1f5fe
+    style G fill:#bbdefb,stroke:#1976d2,stroke-width:2px,color:#000
+    style H fill:#bbdefb,stroke:#1976d2,stroke-width:2px,color:#000
 ```
 
 ### The Challenge
@@ -366,8 +366,8 @@ graph TB
         D --> F[Quantum Computer: Still can't solve! 😊]
     end
     
-    style C fill:#ffebee
-    style F fill:#e8f5e8
+    style C fill:#ffcdd2,stroke:#e53935,stroke-width:2px,color:#000
+    style F fill:#c8e6c9,stroke:#43a047,stroke-width:2px,color:#000
 ```
 
 ### Signal's Quantum Protection
@@ -383,7 +383,7 @@ graph LR
         D --> E[Safe from both regular and quantum attacks! 🛡️]
     end
     
-    style E fill:#e8f5e8
+    style E fill:#c8e6c9,stroke:#43a047,stroke-width:2px,color:#000
 ```
 
 ## Real-World Examples 🌍
@@ -532,11 +532,11 @@ graph TB
     C --> D[Freedom to Express Yourself]
     D --> E[Better World for Everyone! 🌟]
     
-    style A fill:#e1f5fe
-    style B fill:#fff3e0
-    style C fill:#e8f5e8
-    style D fill:#f3e5f5
-    style E fill:#fff9c4
+    style A fill:#bbdefb,stroke:#1976d2,stroke-width:2px,color:#000
+    style B fill:#ffe0b2,stroke:#fb8c00,stroke-width:2px,color:#000
+    style C fill:#c8e6c9,stroke:#43a047,stroke-width:2px,color:#000
+    style D fill:#e1bee7,stroke:#8e24aa,stroke-width:2px,color:#000
+    style E fill:#fff59d,stroke:#f57f17,stroke-width:2px,color:#000
 ```
 
 The Signal Protocol isn't just about technology - it's about protecting your right to have private conversations, just like you do in person. It helps create a world where you can express yourself freely without worrying about who might be listening.
